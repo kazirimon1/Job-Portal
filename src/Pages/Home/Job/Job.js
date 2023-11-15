@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Job = ({ job }) => {
     const { deadline, title, company, experience, educationalReq, location } = job
@@ -37,7 +38,7 @@ const Job = ({ job }) => {
                     <p className='mx-2'> Deadline: {deadline}</p>
                 </div>
             </div>
-
+            <Link className='flex justify-center' to='/jobdescription'><button className='btn btn-outline'>Full Details</button></Link>
         </div>
     );
 };
