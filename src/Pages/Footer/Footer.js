@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
     return (
         <footer className="footer p-10 bg-black text-white">
-            <h1 className='text-3xl text-white flex items-center'>© 2023 Sazed Khan All rights reserved.</h1>
+            <h1 className='text-3xl text-white flex items-center'>© 2023 Kazi Shahadat Hossen All rights reserved.</h1>
             <nav>
                 <header className="footer-title">Services</header>
                 <Link to='/' className="link link-hover">Branding</Link>
